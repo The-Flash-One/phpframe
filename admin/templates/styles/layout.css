@@ -1,0 +1,90 @@
+#wrapper{
+	width:980px;
+	margin:0 auto;
+}
+#logo{	
+	
+	height:65px;
+	margin:5px 0;
+}
+#info{
+	float:right;
+	margin-right:10px;
+	line-height:65px;
+}
+#navi{
+    height: 42px;
+    background: #900;
+    margin-top: 10px;
+}
+#navi li{
+	float:left;
+}
+#navi li a {
+    display: block;
+    padding: 0 25px;
+	line-height:42px;
+    color: #fff;
+}
+#subject,#article-info,#main{
+    margin-top: 15px;
+}
+#subject{
+	font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    line-height: 50px;
+}
+#article-info{
+	color: #555555;
+    height: 36px;
+    font-style: normal;
+    font-size: 14px;
+    font-family: "Microsoft YaHei","\u5FAE\u8F6F\u96C5\u9ED1"
+}
+.cmt_num{	
+	height: 36px;
+    line-height: 36px;
+    padding-left: 15px;
+    margin: 0 18px 0 0;
+    color: #ff8500;
+    font-size: 36px;
+    font-family: "Arial black";
+}
+
+#main .left{
+	float:left;
+	width:670px;
+}
+#main .right{
+	float:right;
+	width:300px;
+}
+.article-body{
+	margin:0 10px;
+}
+.article-body p {
+    font-size: 14px;
+    line-height: 2em;
+    margin: 15px 0;
+	font-size: 16px;
+	text-indent:2em;
+}
+
+#copy{
+	font-size: 14px;
+    border-top: 1px solid #d0d0d0;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+#copy p{
+	text-align: center;
+    line-height: 30px;
+}
+
+
+
+
+
+
+

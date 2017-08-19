@@ -1,0 +1,114 @@
+#container{
+	width:640px;
+	margin:0 auto;
+}
+#subject{
+	font: 28px/80px 微软雅黑;
+}
+.post_box {
+	width:610px;
+	margin:0 auto;
+    background-color: #efefef;
+    padding: 40px 15px 9px;
+    position: relative;
+    background: url(../images/bg.png) no-repeat 19px -988px #F1F1F1;
+    zoom: 1;
+}
+.post_box_cont {
+    width: 100%;
+    position: relative;
+}
+.post_box_cont textarea {
+    width: 590px;
+    height: 72px;
+    line-height: 24px;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #C6C6C6 inset;
+    overflow: auto;
+    padding: 4px 10px;
+    background: #fff;
+    font-size: 14px;
+}
+.comment-wrapper-title{
+	height: 46px;
+    line-height: 46px;
+    background-color: #f3f3f3;
+    border-top: 1px solid #FCFCFC;
+	font-size: 16px;
+    font-family: 微软雅黑, 黑体;
+    font-weight: bold;
+	padding-left:20px;
+	margin-bottom:10px;
+}
+.cmnt_user_cont{
+	padding: 12px 0 0;
+    position: relative;
+}
+.form_input_long {
+    border: 1px solid #ababab;
+    width: 120px;
+    height: 14px;
+    padding: 4px 5px 3px;
+    color: #333;
+    box-shadow: inset 1px 1px rgba(0,0,0,0.1);
+    border-radius: 1px;
+}
+.cmnt_password {
+    margin-left: 10px;
+    float: left;
+    display: inline;
+    margin-top: 2px;
+}
+.post_inline_comment {
+	position:absolute;
+	bottom:5px;
+	right:10px;
+    margin: -4px 3px 0 15px;
+    float: left;
+    width: 82px;
+    height: 33px;
+    cursor: pointer;
+    color: #FFF;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+  
+    display: inline;
+    background: url(../images/bg.png) no-repeat 0 -40px;
+    text-indent: -9999em;
+}
+
+
+.cmnt_name {
+    float: left;
+    display: inline;
+    margin: 2px 0 0 0;
+}
+.comment_item {
+    border-bottom: 1px dotted #ccc;
+	margin-bottom:10px;
+}
+.comment_item_cont .t_face {
+    display: inline;
+    float: left;
+    width: 50px;
+    height: 64px;
+    padding: 1px 0;
+}
+.comment_item_cont .t_content {
+    word-wrap: break-word;  
+    margin-left: 62px;
+    _margin-left: 59px;
+}
+.t_info {
+    color: #666;
+    line-height: 20px;
+    font-size: 12px;
+}
+.t_txt {
+    line-height: 22px;
+    font-size: 14px;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+}
