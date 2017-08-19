@@ -1,0 +1,190 @@
+input{
+	outline:none;
+}
+input.cate_name{
+	width:190px;
+	padding:5px;
+    border: solid 1px #ccc;  
+	height:22px;
+	line-height:22px;
+}
+select {
+	width:200px;
+	padding:5px;
+    border: solid 1px #ccc;  
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;    
+    background: url("../images/arrow.png") no-repeat scroll right center transparent;
+	outline:none;
+	line-height:1.5em;
+}
+select::-ms-expand { 
+	display: none; 
+}
+#header{
+	width:100%;
+	position: relative;
+    height: 49px;    
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: #ddd;
+    color: #666;
+}
+#header .logo{
+	padding: 0 10px;
+    height: 50px;
+    line-height: 50px;
+}
+#header .logout{
+	position:absolute;
+	right:10px;
+	bottom:10px;	
+}
+#admin-menu {	
+	position:absolute;
+	width: 210px;
+	height:100%;
+	min-height:100%;	   
+    padding: 10px;
+    left: 0;
+    top: 50px;
+	bottom:0;
+    background: #00c0ef;
+	z-index:10;
+}
+#admin-menu h3{	
+	font-weight:normal;
+	cursor:pointer;
+	color:#fff;
+}
+#admin-menu ul{
+	margin-left:10px;
+	line-height:2em;
+}
+#admin-menu ul a{
+	color:#fff;
+}
+#admin-main{
+	position:absolute;
+	left:230px;
+	top:50px;
+	right:0;
+	bottom:0;
+	background:#fff;
+	z-index:100;		
+}
+#buttons-wrapper{
+	margin-top:10px;
+	margin-left:10px;
+}
+#buttons-wrapper .button{
+	height: 24px;  
+    color: #fff;
+    font-size: 14px;
+	background:#0cc0ef;
+	border:none;
+	padding:5px 5px 26px 5px;
+	border-radius:4px;
+	cursor:pointer;
+	outline:none;
+}
+#admin-main-wrapper{
+	padding:10px;
+}
+#admin-main-wrapper .current-position{
+	font-weight:bold;
+	padding-bottom:5px;
+	border-bottom:1px solid #ddd;	 
+}
+#admin-main-wrapper .current-position a,.link{
+	color:#0e90d2;
+}
+#admin-main-wrapper table{
+	width:100%;
+	background:#fff;
+}
+#admin-main-wrapper table tr.hover{	
+	background-color:#f5f5f5;
+}
+#admin-main-wrapper table tr.active{
+	background-color:#ffffd5;
+}
+#admin-main-wrapper td{
+	padding:10px;
+}
+#admin-main-wrapper td.col-title{
+	width:100px;
+	font-weight:bold;
+}
+#admin-main-wrapper td.checkbox{
+	width:30px;
+	overflow:hidden;
+}
+#admin-main-wrapper td.cate_name{
+	width:70px;
+	overflow:hidden;
+}
+#admin-main-wrapper td.is_checked{
+	width:50px;
+	overflow:hidden;
+	text-align:center;
+}
+#admin-main-wrapper td.is_checked img{
+	cursor:pointer;
+}
+#admin-main-wrapper td.add_time{
+	width:130px;
+	overflow:hidden;
+}
+
+.art_subject{
+	width:100%;
+	height:24px;
+	line-height:24px;
+	border-top:1px solid #333;
+	border-left:1px solid #333;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.submit-button{   
+    width: 88px;
+    height: 34px; 
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+	background-color: #0595d5;    
+    cursor: pointer;
+    font: 16px/34px "microsoft yahei";
+}
+#search-table{
+	border-bottom:1px solid #ccc;
+}
+
+input.search-txt{
+	border: 1px solid #898989;
+    padding: 3px 5px;
+    line-height: 24px;
+    height: 24px;
+    font-size: 14px;
+    width: 608px;
+    margin: 0 10px 0 0;
+	outline: none;
+}
+input.search-btn {
+    background: url(../images/0422_zyc_search_newIcons.png) 0 -233px no-repeat;
+    width: 90px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    margin: 0 3px 0 0;
+    cursor: pointer;
+    outline: none 0;
+	vertical-align: middle;
+}
+
+
+
+
+
+
